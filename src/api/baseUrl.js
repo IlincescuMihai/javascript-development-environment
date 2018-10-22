@@ -1,5 +1,5 @@
 export default function getBaseUrl() {
-  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : 'https://pure-inlet-47445.herokuapp.com/';
+  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : 'https://nodewebappmishu.azurewebsites.net/';
 }
 
 function getQueryStringParameterByName(name, url) {
