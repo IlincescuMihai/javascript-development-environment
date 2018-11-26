@@ -1,6 +1,14 @@
 import './index.css';
-
+import React from 'react';
+import ReactDOM from 'react-dom';
 import {getUsers, deleteUser} from './api/userApi';
+
+//React.render(<Home/>, document.getElementById('app'));
+ReactDOM.render(
+  <h1>Hello, world!</h1>,
+  document.getElementById('app')
+);
+
 
 // Populate table of users via API call.
 getUsers().then(result => {

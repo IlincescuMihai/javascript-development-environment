@@ -25,6 +25,8 @@
   "author": "Cory House",
   "license": "MIT",
   "dependencies": {
+    "react": "15.0.2",
+    "react-dom": "15.0.2",
     "whatwg-fetch": "1.0.0"
   },
   "devDependencies": {
@@ -42,6 +44,7 @@
     "eslint": "3.8.1",
     "eslint-plugin-import": "^2.14.0",
     "eslint-watch": "2.1.14",
+    "eslint-plugin-react": "5.0.1",
     "express": "^4.16.3",
     "extract-text-webpack-plugin": "1.0.1",
     "html-webpack-plugin": "2.22.0",
